@@ -1,0 +1,165 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+nav { background-color: #1F2937; 
+      margin: auto; 
+      display: flex;
+      justify-content: space-evenly;
+    
+    }        
+
+.logo { font-size: 24px;
+        color: #f9FAF8;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        letter-spacing: -1px;
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+         }
+
+.navigation { display: flex; 
+              align-items: center;
+              width: 300px; 
+              justify-content: space-evenly;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              letter-spacing: -1px;
+              margin-right: 50px;
+               }
+ 
+li > a:hover { color: #3882F6; }              
+
+ul {    display: flex;
+        justify-content: space-evenly; }
+
+li { list-style-type: none;
+        font-size: 18px;
+        display: inline-block;
+        justify-content: space-evenly; }
+
+a {  text-decoration: none;
+     color: #E5E7EB;  }
+
+.below_nav { background-color:#1F2937;
+             color: #F9FAF8;
+             display: flex;
+             justify-content: center;
+             padding-top: 100px;
+             padding-bottom: 100px;
+
+             }     
+
+.below_nav_left { width: 400px; 
+                  padding-right: 25px; }  
+
+.below_nav_right { padding-left: 25px; }                  
+
+.main_text  { color: #F9FAF8;
+              font-size: 48px;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-weight: bolder;
+              letter-spacing: -1px;
+            }
+
+.secondary_text { color: #E5E7EB;
+                  font-size: 18px; 
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  letter-spacing: -1px;
+                }            
+
+button { background-color: #3882F6; 
+         color: #f9FAF8; 
+         border-radius: 8px;
+         border-style: none;
+         width: 100px; 
+         padding: 5px;
+         margin-top: 15px;
+         cursor: pointer;
+
+}                
+
+.first_white_section {margin-top: 50px; }
+
+.hover_opacity:hover {opacity: 25%;}
+
+.image_div { margin-top: 50px;
+             display: flex;
+             justify-content: center;
+
+}
+
+figure { width: 150px; 
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         text-align: center;
+         color: #A1A1A1;
+         letter-spacing: -1px;
+} 
+        
+figure img { border: 3px solid #3882F6;
+             border-radius: 8px;}
+
+
+.info { color: #1F2937; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 36px;
+        font-weight: bolder;
+        margin:0px auto;
+        text-align: center;
+        letter-spacing: -1px;
+        
+    }
+
+.quote_div {background-color: #E5E7EB; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 36px;
+            font-style: italic;
+            color: #1F2937;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            margin-top: 50px;
+            margin-bottom:50px;
+}
+
+.quote { width: 800px; 
+         margin: 0px auto;}
+
+.quote_author {font-size: 20px;
+               font-weight: bolder;
+               float: right; 
+               font-style: normal;
+               padding-top: 20px;
+               padding-right: 60px;}   
+
+.last_white_section {display: flex; justify-content: space-evenly;}               
+
+.call_to_action {background-color: #3882F6;
+                 border-radius: 8px;
+                 width: 600px;
+                 margin: 0px auto;
+                 padding: 50px 70px;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                 color: #F9FAF8;
+                 font-weight: bold;
+                 }       
+
+ .call_to_action > div {display: inline-block; }                
+               
+.last_button > button {border: 2px solid #FFFFFF; margin-left: 100px; }    
+
+.smaller_text { font-size: 12px; 
+                font-weight: lighter;
+                margin-top: 5px; }
+
+footer { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        color: #F9FAF8; 
+        font-weight: lighter;
+        text-align: center;
+        background-color: #1F2937;
+        margin-top: 50px; 
+        padding: 40px; 
+    
+    }                
